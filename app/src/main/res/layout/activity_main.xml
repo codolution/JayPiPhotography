@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.jaypiphotographysinglescreenapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/motocross_1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_xlarge"
+        android:layout_marginRight="@dimen/spacing_xlarge"
+        android:src="@drawable/jaypi_photography_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageBackground"
+        android:background="@color/colorPrimaryOpac"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/label_location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_location_on"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/spacing_small"
+                android:text="@string/location"
+                android:textColor="@color/colorPrimaryLight" />
+
+            <TextView
+                android:id="@+id/label_opening_hours"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_access_time"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/spacing_small"
+                android:text="@string/time"
+                android:textColor="@color/colorPrimaryLight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/label_mail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_mail_outline"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/spacing_small"
+                android:text="@string/mail"
+                android:textColor="@color/colorPrimaryLight" />
+
+            <TextView
+                android:id="@+id/label_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_local_phone"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/spacing_small"
+                android:text="@string/phone"
+                android:textColor="@color/colorPrimaryLight" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_language"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/spacing_small"
+            android:paddingLeft="@dimen/spacing_medium"
+            android:paddingTop="@dimen/spacing_small"
+            android:text="@string/url"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_medium" />
+
+    </LinearLayout>
+
+</RelativeLayout>
