@@ -36,25 +36,15 @@
 
             <TextView
                 android:id="@+id/label_location"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_location_on"
-                android:gravity="center_vertical"
-                android:paddingLeft="@dimen/spacing_small"
-                android:text="@string/location"
-                android:textColor="@color/colorPrimaryLight" />
+                style="@style/LabelWithLeftIcon"
+                android:drawable="@drawable/ic_location_on"
+                android:text="@string/location" />
 
             <TextView
                 android:id="@+id/label_opening_hours"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                style="@style/LabelWithLeftIcon"
                 android:drawableLeft="@drawable/ic_access_time"
-                android:gravity="center_vertical"
-                android:paddingLeft="@dimen/spacing_small"
-                android:text="@string/time"
-                android:textColor="@color/colorPrimaryLight" />
+                android:text="@string/time" />
 
         </LinearLayout>
 
@@ -64,25 +54,15 @@
 
             <TextView
                 android:id="@+id/label_mail"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                style="@style/LabelWithLeftIcon"
                 android:drawableLeft="@drawable/ic_mail_outline"
-                android:gravity="center_vertical"
-                android:paddingLeft="@dimen/spacing_small"
-                android:text="@string/mail"
-                android:textColor="@color/colorPrimaryLight" />
+                android:text="@string/mail" />
 
             <TextView
                 android:id="@+id/label_phone"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                style="@style/LabelWithLeftIcon"
                 android:drawableLeft="@drawable/ic_local_phone"
-                android:gravity="center_vertical"
-                android:paddingLeft="@dimen/spacing_small"
-                android:text="@string/phone"
-                android:textColor="@color/colorPrimaryLight" />
+                android:text="@string/phone" />
 
         </LinearLayout>
 

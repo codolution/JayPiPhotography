@@ -2,7 +2,7 @@
     <string name="app_name">JayPi Photography</string>
     <string name="location">Name the place</string>
     <string name="time">Name the time</string>
-    <string name="mail">mail us!</string>
-    <string name="phone"># 0000 - 0000</string>
+    <string name="mail">Mail us</string>
+    <string name="phone">Call us</string>
     <string name="url">www.jaypiphotography.com</string>
 </resources>
