@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#111111</color>
     <color name="colorPrimaryLight">#CCCCCC</color>
     <color name="colorPrimaryLighter">#EEEEEE</color>
-    <color name="colorPrimaryOpac">#CC222222</color> <!-- First two digits: Opacity -->
+    <color name="colorPrimaryOpac">#CC222222</color> <!-- First two digits: opacity -->
     <color name="colorAccent">#08aac2</color>
     <color name="colorAccentDark">#077383</color>
 </resources>
